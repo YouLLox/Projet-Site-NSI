@@ -1,0 +1,237 @@
+<!-- Projet de mini-site web 
+Page d'accueil
+Titre : Big brain!
+Auteurs : Louann et Gaël
+Date : 17 avril 2023
+Version : 1.0
+-->
+
+<!DOCTYPE html><!-- Informe que le code HTML est utilisé pour cette page -->
+<html>
+
+<!-- Informations sur la page : titre de la page, jeu de caractères utilisé, feuille de style externe utilisée pour la mise en page -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="index.css" />
+  <script type="text/javascript" src="index.js"></script>
+  <script rel="icon" type="image/png" sizes="16x16" href="logo-site.png"></script>
+  <title>Big Brain !</title>
+</head> 
+
+<body>
+   <!-- Définition de la barre horizontale -->
+  <hr class="barre">
+  
+  <!-- Définition du logo -->
+  <img class="logo" src="logo-site.png">  
+
+   <!-- Définition du bouton Accueil  -->
+  <a href="index.html" class="link">
+    <button0>‎ Accueil‎ </button0>  
+  </a>
+
+  <button2 onclick="tpass()">Temps passé</button2>
+  
+  <!-- Définition du bouton Contact  -->
+  <a href="clientarea.html" class="link">
+    <button1>‎ Connexion‎ </button1>
+  </a>
+  
+  <!-- Définition du titre du site  -->
+  <h1>
+    <div id="title">
+      <home-title>Big Brain !</home-title>
+    </div>
+  </h1>
+
+   <!-- Définition du menu central  -->
+  <hr class="separation">
+  
+    <!-- Définition du pavé Entrainements  -->
+    <div class="rectangle">
+      <img class="rimage" src="rimage.png">
+      <h1>
+        <div class="rtexte">
+          <strong>
+            Entrainements
+          </strong>
+        </div>
+        <div class="rdescription">
+        Entrainez-vous grâce à nos nombreux exercices disponibles en ligne !
+        </div>
+        <a href="clientarea.html">
+          <button class="cssbuttons-io">
+            <span>
+              Essayer
+            </span>
+          </button>
+        </a>
+      </h1>
+      
+      <!-- Définition du pavé Sujets  -->
+      <div class="rectangle1">
+        <img class="rimage" src="rimage1.png">
+        <h1>
+          <div class="rtexte1">
+            <strong>
+              Sujets
+            </strong>
+          </div>
+          <div class="rdescription">
+            Consulter un grand nombre de sujets d'examen gratuitement !
+          </div>
+          <a href="clientarea.html">
+            <button class="cssbuttons-io">
+              <span>
+                Essayer
+              </span>
+            </button>
+          </a>
+      </h1>
+      
+        <!-- Définition du pavé Corrections  -->
+        <div class="rectangle1">
+          <img class="rimage" src="rimage2.png">
+          <h1>
+            <div class="rtexte2">
+              <strong>
+                Corrections
+             </strong>
+            </div>
+            <div class="rdescription">
+              Feuilletez nos différentes corrections examinées par des professionnels
+            </div>
+            <a href="clientarea.html">
+              <button class="cssbuttons-io">
+                <span>
+                  Essayer
+               </span>
+              </button>
+            </a>
+          </h1>
+          <div class="image1">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Définition du tableau des sponsors avec renvoi vers leur site  -->
+  <table style='width: 60%'>
+    <tr>
+      <th class="sponsors">Nos Partenaires</th>
+    </tr>
+    <tr>
+      <td class="ligne1">OperaGX</td>
+      <td class="ligne1">Harvard</td>
+      <td class="ligne1">Lotus</td>
+      <td class="ligne1">Cochonou</td>
+    </tr>
+    <tr>
+      <td class="ligne2">
+        <a href="https://googe.com">
+          <img src="logo-dd.png" style="width: 70%;">
+        </a>
+      </td>
+      <td class="ligne2">
+        <a href="https://www.harvard.edu/">
+          <img src="logo-harvard.png" style="width: 70%;">
+        </a>
+      </td>
+      <td class="ligne2">
+        <a href="https://www.lotushygiene.com/fr/">
+          <img src="logo-lotus.png" style="width: 60%;">
+        </a>
+      </td>
+      <td class="ligne2">
+        <a href="https://www.cochonou.fr/">
+          <img src="logo-cochonou.png" style="width: 60%;">
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Définition du pied de page -->
+  <div class="rectangle3">
+    <img class="log" src="logo-site.png">
+    <div class="info1">
+      Créée en 2023, Big Brain ! est une société<br> spécialisée dans l'aide aux devoirs.<br>
+        <em>
+          Ensemble, construisons une base meilleure !
+        </em>
+    </div>
+    <!-- Liens vers les réseaux sociaux -->
+    <div class="carre1">
+      <a href="https://www.facebook.com/">
+        <img class="facebook" src="logo-facebook.png">
+      </a>
+    </div>
+    <div class="carre2">
+      <a href="https://twitter.com/">
+        <img class="twitter" src="logo-twitter.png">
+      </a>
+    </div>
+    <div class="carre3">
+      <a href="https://instagram.com/">
+        <img class="instagram" src="logo-instagram.png">
+      </a>
+    </div>
+    <div class="carre4">
+      <img class="youtube" src="logo-youtube.png">
+    </div>
+    <div class="carre5">
+      <a href="https://fr.linkedin.com/">
+        <img class="linkedin" src="logo-linkedin.png">
+      </a>
+    </div> 
+    </hr>
+    <!-- Définition de la liste des informations avec puces -->
+    <div class="liste1">
+      <h3>
+        Informations
+      </h3>
+      <ul>
+        <!-- Renvoi de tous les menus vers la page dev.html -->
+        <a href="dev.html" class="link">
+        <li> À propos </li>
+        <li> Pourquoi nous choisir ? </li>
+        <li> Politique de confidentialité </li>
+        <li> Conditions d'utilisation </li>
+        <li> Mentions légales </li>
+        </a>
+      </ul>  
+    </div>
+    <!-- Définition de la liste des outils avec puces -->
+    <div class="liste2">
+      <h3>
+        Outils
+      </h3>
+      <ul>
+        <!-- Renvoi de tous les menus vers la page dev.html -->
+        <a href="dev.html" class="link">
+        <li> Poser une question </li>
+        <li> Répondre à un devoir </li>
+        <li> Centre d'aides </li>
+        <li> Actualités </li>
+        </a>
+      </ul>
+    </div>
+    <!-- Définition de la liste Divers avec puces -->
+    <div class="liste3">
+      <h3>
+        Divers
+      </h3>
+      <ul>
+        <!-- Renvoi de tous les menus vers la page dev.html -->
+        <a href="dev.html" class="link">
+        <li> Nous contacter </li>
+        <li> S'inscrire </li>
+        </a>
+      </ul>
+    </div>
+    
+  </div>
+  
+</body>
+
+</html>

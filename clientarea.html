@@ -1,0 +1,61 @@
+<!-- Projet de mini-site web 
+Page de connexion
+Titre : Big brain!
+Auteurs : Louann et Gaël
+Date : 17 avril 2023
+Version : 1.0
+-->
+
+<!DOCTYPE html><!-- Informe que le code HTML est utilisé pour cette page -->
+<html>
+
+<!-- Informations sur la page : titre de la page, jeu de caractères utilisé, feuille de style externe utilisée pour la mise en page -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="clientarea.css" />
+  <script type="text/javascript" src="clientarea.js"></script>
+  <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+  <title>Big Brain !</title>
+</head>
+
+<body>
+  <!-- Définition du pavé de connexion -->
+  <div class="form-box">
+    <form class="form">
+    <span class="title">
+      <h2>
+        <!-- Appel aux fonctions de changement de couleur en fonction de l'id définies dans clientarea.js -->
+        <p onmouseenter="change_couleur()" onmouseleave="reset_couleur()" id="text">Connexion</p>
+      </h2>
+    </span>
+    <span class="subtitle">Créez gratuitement votre compte et accédez à toutes nos ressources.</span>
+      <!-- Formulaire d'inscription -->
+      <div class="form-container">
+        <input type="text" class="input" placeholder="Pseudo">
+        <input type="email" class="input" placeholder="Email">
+        <input type="password" class="input" placeholder="Mot de Passe">
+        <input type="checkbox" id="suscribeNews" name="news" class="chk">
+        <label for="suscribeNews" class="label">Abonnez-vous à la Newsletter</label><br>
+        <input type="checkbox" id="maj" name="news" class="chk">
+        <label for="maj" class="label">Abonnez-vous aux mises à jour</label><br>
+        <input type="checkbox" id="prof" name="news" class="chk">
+        <label for="prof" class="label">Conseils d'un professeur certifié</label><br>
+        <!-- Appel à la fonction permettant de cocher toutes les cases par défaut en cliquant sur le bouton -->
+        <input type="button" onclick="ToutCocher()" value="Tout cocher">
+      </div>
+          
+      <button>
+        <a href="dev.html">S'inscrire</a>
+      </button>
+    </form>
+    <!-- Renvoi si compte utilisateur déjà existant -->
+    <div class="form-section">
+      <p>
+        Vous avez déjà un compte ?<br>
+          <a href="dev.html">Se Connecter</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

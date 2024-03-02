@@ -1,0 +1,22 @@
+/* Projet de mini-site web 
+Feuille de style Page d'information : site en développement
+Titre : Big brain!
+Date : 17 avril 2023
+Version : 1.0
+*/
+
+img
+{
+ width: 60%;
+ position: absolute;
+ bottom: -5%;
+ left: 20%;
+}
+
+.liste {
+  font-size: 120%;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}

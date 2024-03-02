@@ -1,0 +1,41 @@
+<!-- Projet de mini-site web 
+Page d'information : site en développement
+Titre : Big brain!
+Auteurs : Louann et Gaël
+Date : 17 avril 2023
+Version : 1.0
+-->
+
+<!DOCTYPE html><!-- Informe que le code HTML est utilisé pour cette page -->
+<html>
+
+<!-- Informations sur la page : titre de la page, jeu de caractères utilisé, feuille de style externe utilisée pour la mise en page -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="dev.css" />
+  <script type="text/javascript" src="dev.js"></script>
+  <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+  <title>Big Brain !</title>
+</head>
+
+<body>
+  <!-- Définition de la page en construction -->
+  <!-- Appel de la fonction defilement qui permet de faire défiler le texte suivant à une vitesse de 10 ms-->
+  <img src="dev.png" onload="defilement('Pages en cours de développement', 10)">
+
+  <!-- Définition de la liste numérotée des informations -->
+    <div class="liste">
+      <h3>
+        Pages en cours de construction
+      </h3>
+      <ol>
+        <li> Liste des exercices d'entrainement </li>
+        <li> Liste des sujets d'examen disponibles  </li>
+        <li> Liste des corrections d'examen </li> 
+        <li> Forum de discussions </li>
+      </ol> 
+    </div>
+</body>
+
+</html>
